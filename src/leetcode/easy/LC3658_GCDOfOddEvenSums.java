@@ -1,6 +1,6 @@
-package numbersystem;
+package leetcode.easy;
 
-public class GCDOfOddEvenSums {
+public class LC3658_GCDOfOddEvenSums {
     public static void main(String[] args) {
         int n = 4;
 

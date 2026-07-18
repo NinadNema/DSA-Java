@@ -1,8 +1,8 @@
-package numbersystem;
+package leetcode.medium;
 
 import java.util.Arrays;
 
-public class GCDPairSum {
+public class LC3867_SumOfGCDOfFormedPairs {
     public static void main(String[] args) {
         int[] arr = {3,5,6};
 

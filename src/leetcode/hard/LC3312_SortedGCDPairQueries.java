@@ -1,8 +1,8 @@
-package numbersystem;
+package leetcode.hard;
 
 import java.util.Arrays;
 
-class SortedGCDPairQueries {
+class LC3312_SortedGCDPairQueries {
     public static void main(String[] args) {
         int[] arr = {3, 6, 9, 12};
         long[] queries = {0, 3, 5};
