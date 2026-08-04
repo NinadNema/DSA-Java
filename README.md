@@ -16,6 +16,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Number System | [`src/numbersystem`](src/numbersystem) | Primes, factorials, sieve |
 | Strings | [`src/string`](src/string) | Palindrome, reversal, basic string ops |
 | Patterns | [`src/pattern`](src/pattern) | Star/number pattern printing |
+| Backtracking | [`src/backtracking`](src/backtracking) | N-Queens, N-Knights, maze paths, Sudoku solver |
 | LeetCode | [`src/leetcode`](src/leetcode) | Organized by difficulty: `easy/`, `medium/`, `hard/` |
 
 ## ✅ Progress Tracker
@@ -29,6 +30,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 - [x] Basic Strings
 - [x] Number Theory basics (primes, sieve, factorial)
 - [x] Pattern Printing
+- [x] Backtracking (N-Queens, N-Knights, maze paths, Sudoku solver)
 
 **Upcoming / not yet covered:**
 - [ ] Linked Lists
@@ -38,16 +40,24 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 - [ ] Graphs (BFS, DFS, shortest path)
 - [ ] Tries
 - [ ] Dynamic Programming
-- [ ] Backtracking
 - [ ] Greedy Algorithms
 
 > Since some topics haven't been covered yet, a few array/searching solutions are still brute-force. These will be revisited and optimized once the related patterns (hashing, two-pointer, sliding window, etc.) are covered.
 
-## 📌 Notes
+## 📊 Snapshot
 
-- LeetCode solutions are named `LC<problemNumber>_<ProblemName>.java` and grouped by difficulty for easy reference.
-- Each file includes a `main` method with a sample test case for quick manual verification.
-- Complexity comments are being added incrementally as topics are revisited.
+| Topic | Files |
+|---|---|
+| Arrays | 16 |
+| Backtracking | 7 |
+| Bit Manipulation | 6 |
+| Number System | 3 |
+| Pattern | 1 |
+| Recursion | 23 |
+| Searching | 14 |
+| Sorting | 11 |
+| Strings | 2 |
+| LeetCode (easy/medium/hard) | 28 |
 
 ## 🚀 Goals
 
