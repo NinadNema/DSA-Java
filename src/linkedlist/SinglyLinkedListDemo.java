@@ -17,7 +17,8 @@ public class SinglyLinkedListDemo {
             System.out.println("7. Display the LinkedList");
             System.out.println("8. Size of LinkedList");
             System.out.println("9. Find the Value: ");
-            System.out.println("10. Exit");
+            System.out.println("10 Insertion At Specific Position Using Recursion: ");
+            System.out.println("11. Exit");
 
             System.out.print("Enter Your Choice: ");
             int ch = sc.nextInt();
@@ -72,6 +73,14 @@ public class SinglyLinkedListDemo {
                     break;
                 }
                 case 10: {
+                    System.out.print("Enter the Data: ");
+                    int data = sc.nextInt();
+                    System.out.print("Enter the Index to Insert: ");
+                    int idx = sc.nextInt();
+                    ll.insertRec(data, idx);
+                    break;
+                }
+                case 11: {
                     System.out.println("Thank You");
                     sc.close();
                     return;

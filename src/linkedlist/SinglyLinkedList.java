@@ -66,6 +66,30 @@ public class SinglyLinkedList {
         size++;
     }
 
+    public void insertRec(int data, int index){
+        if(index == 0){
+            Node newNode = new Node(data);
+            newNode.next = head;
+            head = newNode ;
+            return;
+        }
+
+
+        head = insertRec(data, index - 1, head);
+    }
+
+    private Node insertRec(int data, int index, Node node){
+        if(index == 0){
+            Node newNode = new Node(data);
+            newNode.next = node;
+            return newNode;
+        }
+
+        node.next = insertRec(data, index - 1, node.next);
+
+        return node;
+    }
+
     public int deleteBegin(){
         int val = head.data;
         head = head.next;
