@@ -54,8 +54,12 @@ public class MergeSortLinkedList {
         }
 
         Node mid = getMid(head);
+
+        Node rightHead = mid.next;
+        mid.next = null;
+
         Node left = mergeSort(head);
-        Node right = mergeSort(mid);
+        Node right = mergeSort(rightHead);
 
         return merge(left, right);
     }
@@ -84,14 +88,17 @@ public class MergeSortLinkedList {
         return dummpy.next;
     }
 
-    public Node getMid(Node head){
-        Node midPrev = null;
-        while(head != null && head.next != null){
-            midPrev = (midPrev == null) ? head : midPrev.next;
-            head = head.next;
+    private Node getMid(Node head) {
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+
+            slow = slow.next;
+            fast = fast.next.next;
         }
-        Node mid = midPrev.next;
-        midPrev.next = null;
-        return  mid;
+
+        return slow;
     }
 }
