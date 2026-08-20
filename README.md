@@ -13,6 +13,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Recursion | [`src/recursion`](src/recursion) | Recursive sorting, searching, math problems |
 | Searching | [`src/searching`](src/searching) | Linear, binary search and variants |
 | Sorting | [`src/sorting`](src/sorting) | Bubble, insertion, selection, cyclic sort |
+| Linked List | [`src/linkedlist`](src/linkedlist) | Singly, doubly, circular lists; sorting on linked lists |
 | Number System | [`src/numbersystem`](src/numbersystem) | Primes, factorials, sieve |
 | Strings | [`src/string`](src/string) | Palindrome, reversal, basic string ops |
 | Patterns | [`src/pattern`](src/pattern) | Star/number pattern printing |
@@ -31,9 +32,9 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 - [x] Number Theory basics (primes, sieve, factorial)
 - [x] Pattern Printing
 - [x] Backtracking (N-Queens, N-Knights, maze paths, Sudoku solver)
+- [x] Linked Lists
 
 **Upcoming / not yet covered:**
-- [ ] Linked Lists
 - [ ] Stacks & Queues
 - [ ] Trees & Binary Search Trees
 - [ ] Heaps / Priority Queues
@@ -51,13 +52,15 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Arrays | 16 |
 | Backtracking | 7 |
 | Bit Manipulation | 6 |
+| Linked List | 11 |
 | Number System | 3 |
+| OOP / Java Fundamentals | 75 |
 | Pattern | 1 |
 | Recursion | 23 |
 | Searching | 14 |
 | Sorting | 11 |
 | Strings | 2 |
-| LeetCode (easy/medium/hard) | 28 |
+| LeetCode (easy/medium/hard) | 54 |
 
 ## 🚀 Goals
 
