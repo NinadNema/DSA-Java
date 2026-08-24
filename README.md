@@ -14,11 +14,14 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Searching | [`src/searching`](src/searching) | Linear, binary search and variants |
 | Sorting | [`src/sorting`](src/sorting) | Bubble, insertion, selection, cyclic sort |
 | Linked List | [`src/linkedlist`](src/linkedlist) | Singly, doubly, circular lists; sorting on linked lists |
+| Stack | [`src/stack`](src/stack) | Stack implementation and applications |
+| Queue | [`src/queue`](src/queue) | Queue implementation and applications |
 | Number System | [`src/numbersystem`](src/numbersystem) | Primes, factorials, sieve |
 | Strings | [`src/string`](src/string) | Palindrome, reversal, basic string ops |
 | Patterns | [`src/pattern`](src/pattern) | Star/number pattern printing |
 | Backtracking | [`src/backtracking`](src/backtracking) | N-Queens, N-Knights, maze paths, Sudoku solver |
-| LeetCode | [`src/leetcode`](src/leetcode) | Organized by difficulty: `easy/`, `medium/`, `hard/` |
+| OOP / Java Fundamentals | [`src/oop`](src/oop) | Encapsulation, inheritance, polymorphism, abstraction, interfaces, generics, enums, lambdas, exception handling, and more (16 subtopics) |
+| LeetCode | [`src/leetcode`](src/leetcode) | Organized by difficulty: [`easy/`](src/leetcode/easy), [`medium/`](src/leetcode/medium), [`hard/`](src/leetcode/hard) |
 
 ## ✅ Progress Tracker
 
@@ -32,10 +35,12 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 - [x] Number Theory basics (primes, sieve, factorial)
 - [x] Pattern Printing
 - [x] Backtracking (N-Queens, N-Knights, maze paths, Sudoku solver)
-- [x] Linked Lists
+- [x] Linked Lists (singly, doubly, circular)
+- [x] Stacks
+- [x] Queues
+- [x] OOP fundamentals (encapsulation, inheritance, polymorphism, abstraction, interfaces, generics, enums, lambdas, exception handling, cloning, access modifiers, packages)
 
 **Upcoming / not yet covered:**
-- [ ] Stacks & Queues
 - [ ] Trees & Binary Search Trees
 - [ ] Heaps / Priority Queues
 - [ ] Graphs (BFS, DFS, shortest path)
@@ -47,23 +52,53 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 
 ## 📊 Snapshot
 
+**238 Java files** across the repo.
+
 | Topic | Files |
 |---|---|
-| Arrays | 16 |
-| Backtracking | 7 |
-| Bit Manipulation | 6 |
-| Linked List | 11 |
-| Number System | 3 |
 | OOP / Java Fundamentals | 75 |
-| Pattern | 1 |
+| LeetCode | 63 |
+| Arrays | 16 |
 | Recursion | 23 |
 | Searching | 14 |
 | Sorting | 11 |
+| Linked List | 11 |
+| Backtracking | 7 |
+| Bit Manipulation | 6 |
+| Number System | 3 |
+| Stack | 3 |
+| Queue | 3 |
 | Strings | 2 |
-| LeetCode (easy/medium/hard) | 54 |
+| Pattern | 1 |
+
+**LeetCode breakdown:** Easy 27 · Medium 24 · Hard 12
+
+<details>
+<summary><strong>OOP breakdown (click to expand)</strong></summary>
+
+| Subtopic | Files |
+|---|---|
+| Introduction | 8 |
+| Polymorphism | 8 |
+| Interfaces | 7 |
+| Exception Handling | 7 |
+| Generics | 6 |
+| Access Modifiers | 5 |
+| Enums | 5 |
+| Static Example | 5 |
+| Abstract Classes | 4 |
+| Abstraction | 4 |
+| Cloning | 4 |
+| Inheritance | 4 |
+| Lambda | 3 |
+| Packages | 3 |
+| Different Package | 1 |
+| Encapsulation | 1 |
+
+</details>
 
 ## 🚀 Goals
 
-- Reach full topic coverage (arrays → advanced graphs/DP)
+- Reach full topic coverage: Trees, Heaps, Graphs, Tries, Dynamic Programming, Greedy
 - Add time/space complexity notes to every solution
-- Revisit early brute-force solutions with optimized versions once relevant topics are covered
+- Revisit early brute-force array/searching solutions with optimized versions (two-pointer, sliding window, hashing)
