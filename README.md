@@ -20,6 +20,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Strings | [`src/string`](src/string) | Palindrome, reversal, basic string ops |
 | Patterns | [`src/pattern`](src/pattern) | Star/number pattern printing |
 | Backtracking | [`src/backtracking`](src/backtracking) | N-Queens, N-Knights, maze paths, Sudoku solver |
+| Trees | [`src/trees`](src/trees) | Binary Tree, BST, AVL Tree, Segment Tree, traversals, BFS |
 | OOP / Java Fundamentals | [`src/oop`](src/oop) | Encapsulation, inheritance, polymorphism, abstraction, interfaces, generics, enums, lambdas, exception handling, and more (16 subtopics) |
 | LeetCode | [`src/leetcode`](src/leetcode) | Organized by difficulty: [`easy/`](src/leetcode/easy), [`medium/`](src/leetcode/medium), [`hard/`](src/leetcode/hard) |
 
@@ -39,9 +40,9 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 - [x] Stacks
 - [x] Queues
 - [x] OOP fundamentals (encapsulation, inheritance, polymorphism, abstraction, interfaces, generics, enums, lambdas, exception handling, cloning, access modifiers, packages)
+- [x] Trees (Binary Tree, BST, AVL Tree, Segment Tree, traversals, BFS)
 
 **Upcoming / not yet covered:**
-- [ ] Trees & Binary Search Trees
 - [ ] Heaps / Priority Queues
 - [ ] Graphs (BFS, DFS, shortest path)
 - [ ] Tries
@@ -52,26 +53,27 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 
 ## 📊 Snapshot
 
-**238 Java files** across the repo.
+**268 Java files** across the repo.
 
 | Topic | Files |
 |---|---|
 | OOP / Java Fundamentals | 75 |
-| LeetCode | 63 |
+| LeetCode | 86 |
 | Arrays | 16 |
 | Recursion | 23 |
 | Searching | 14 |
 | Sorting | 11 |
 | Linked List | 11 |
 | Backtracking | 7 |
+| Trees | 6 |
 | Bit Manipulation | 6 |
+| Stack | 4 |
 | Number System | 3 |
-| Stack | 3 |
 | Queue | 3 |
 | Strings | 2 |
 | Pattern | 1 |
 
-**LeetCode breakdown:** Easy 27 · Medium 24 · Hard 12
+**LeetCode breakdown:** Easy 33 · Medium 38 · Hard 15
 
 <details>
 <summary><strong>OOP breakdown (click to expand)</strong></summary>
@@ -99,6 +101,6 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 
 ## 🚀 Goals
 
-- Reach full topic coverage: Trees, Heaps, Graphs, Tries, Dynamic Programming, Greedy
+- Reach full topic coverage: Heaps, Graphs, Tries, Dynamic Programming, Greedy
 - Add time/space complexity notes to every solution
 - Revisit early brute-force array/searching solutions with optimized versions (two-pointer, sliding window, hashing)
