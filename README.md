@@ -53,12 +53,12 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 
 ## 📊 Snapshot
 
-**291 Java files** across the repo.
+**329 Java files** across the repo.
 
 | Topic | Files |
 |---|---|
 | OOP / Java Fundamentals | 75 |
-| LeetCode | 109 |
+| LeetCode | 147 |
 | Arrays | 16 |
 | Recursion | 23 |
 | Searching | 14 |
@@ -73,7 +73,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Strings | 2 |
 | Pattern | 1 |
 
-**LeetCode breakdown:** Easy 43 · Medium 47 · Hard 19
+**LeetCode breakdown:** Easy 53 · Medium 68 · Hard 26
 
 <details>
 <summary><strong>OOP breakdown (click to expand)</strong></summary>
