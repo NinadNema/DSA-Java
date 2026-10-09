@@ -21,6 +21,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Patterns | [`src/pattern`](src/pattern) | Star/number pattern printing |
 | Backtracking | [`src/backtracking`](src/backtracking) | N-Queens, N-Knights, maze paths, Sudoku solver |
 | Trees | [`src/trees`](src/trees) | Binary Tree, BST, AVL Tree, Segment Tree, traversals, BFS |
+| Heap | [`src/heap`](src/heap) | Min Heap, Max Heap, Heap Sort, Priority Queue |
 | OOP / Java Fundamentals | [`src/oop`](src/oop) | Encapsulation, inheritance, polymorphism, abstraction, interfaces, generics, enums, lambdas, exception handling, and more (16 subtopics) |
 | LeetCode | [`src/leetcode`](src/leetcode) | Organized by difficulty: [`easy/`](src/leetcode/easy), [`medium/`](src/leetcode/medium), [`hard/`](src/leetcode/hard) |
 
@@ -41,9 +42,9 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 - [x] Queues
 - [x] OOP fundamentals (encapsulation, inheritance, polymorphism, abstraction, interfaces, generics, enums, lambdas, exception handling, cloning, access modifiers, packages)
 - [x] Trees (Binary Tree, BST, AVL Tree, Segment Tree, traversals, BFS)
+- [x] Heaps / Priority Queues (Min Heap, Max Heap, Heap Sort)
 
 **Upcoming / not yet covered:**
-- [ ] Heaps / Priority Queues
 - [ ] Graphs (BFS, DFS, shortest path)
 - [ ] Tries
 - [ ] Dynamic Programming
@@ -53,7 +54,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 
 ## 📊 Snapshot
 
-**329 Java files** across the repo.
+**334 Java files** across the repo.
 
 | Topic | Files |
 |---|---|
@@ -67,6 +68,7 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 | Backtracking | 7 |
 | Trees | 6 |
 | Bit Manipulation | 6 |
+| Heap | 5 |
 | Stack | 4 |
 | Number System | 3 |
 | Queue | 3 |
@@ -101,6 +103,6 @@ This repo is a running log of my DSA practice — organized by topic, updated as
 
 ## 🚀 Goals
 
-- Reach full topic coverage: Heaps, Graphs, Tries, Dynamic Programming, Greedy
+- Reach full topic coverage: Graphs, Tries, Dynamic Programming, Greedy
 - Add time/space complexity notes to every solution
 - Revisit early brute-force array/searching solutions with optimized versions (two-pointer, sliding window, hashing)
